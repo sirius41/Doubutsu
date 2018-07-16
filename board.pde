@@ -21,8 +21,8 @@ class Board {
     if(koma==null){
       komaList.select(x,y);
     }else{
+      koma.move(x,y);
       koma.kStat.selected=false;
     }
   }
-
 }
